@@ -21,7 +21,10 @@
       <div class="header-box">
         <nav class="nav-bar">
           <div class="logo">
-            <img src="./images/logo.png" alt="logo" class="logo-img">
+            <picture>
+              <source media="(max-width: 768px)" srcset="./images/logo-size-s.png">
+              <img src="./images/logo.png" alt="logo" class="logo-img">
+            </picture>
           </div>
           <div class="nav-bar__nav">
             <ul class="nav-bar__menu">
@@ -42,6 +45,9 @@
               </li>
             </ul>
           </div>
+          <div class="nav-bar__hamburger-menu">
+            <img src="./images/hamburger-menu.png" alt="" class="hamburger-img">
+          </div>
         </nav>
         <div class="container__item">
           <div class="header-box__wrapper">
@@ -49,13 +55,16 @@
               <div class="promo promo_left">
                 <div class="logo-main">
                   <picture>
-                    <source media="(max-width: 1024px)" srcset="./images/logo-size-s.png" class="logo-main-img">
+                    <source media="(max-width: 1024px)" srcset="./images/logo-main-size-s.png" class="logo-main-img">
                     <img class="logo-main-img" src="./images/logo-main.png" alt="Logo">
                   </picture>
                 </div>
                 <div class="title title_white title_text_left">MODERN AXURE TEMPLATE FOR BEAUTIFUL <br> PROTOTYPES</div>
                 <div class="seporator seporator_white"></div>
                 <div class="post-title post-title_white">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                <div class="btn btn_header">
+                  <a href="#" class="btn__item btn__item_color_white">Download</a>
+                </div>
               </div>
               <div class="registration-box">
                 <form action="" id="" class="form">
@@ -72,9 +81,6 @@
                   </div>
                 </form>
               </div>
-            </div>
-            <div class="btn btn_header">
-              <a href="#" class="btn__item btn__item_color_white">Download</a>
             </div>
           </div>
         </div>
@@ -140,7 +146,7 @@
           <label for="tab-btn-2">TAB 2</label>
           <input type="radio" name="tab-btn" id="tab-btn-3" value="">
           <label for="tab-btn-3">TAB 3</label>
-          <div class="tabs__content_first">
+          <div class=" tabs__content tabs__content_first">
             <div class="tabs__text">
               <div class="tabs__title">
                 <h3>Tabs with soft transitioning effect.</h3>
@@ -159,10 +165,13 @@
               </div>
             </div>
             <div class="tabs__image">
-              <img src="./images/tabs-image.png" alt="" class="tabs__image_item">
+              <picture>
+                <source media="(max-width: 1024px)" srcset="./images/tabs-image-size-s.png" class="tabs__image_item">
+                <img src="./images/tabs-image.png" alt="" class="tabs__image_item">
+              </picture>
             </div>
           </div>
-          <div class="tabs__content_second">
+          <div class="tabs__content tabs__content_second">
             <div class="tabs__text">
               <div class="tabs__title">
                 <h3>Tabs with soft transitioning effect #2.</h3>
@@ -181,10 +190,13 @@
               </div>
             </div>
             <div class="tabs__image">
-              <img src="./images/tabs-image.png" alt="" class="tabs__image_item">
+              <picture>
+                <source media="(max-width: 1024px)" srcset="./images/tabs-image-size-s.png" class="tabs__image_item">
+                <img src="./images/tabs-image.png" alt="" class="tabs__image_item">
+              </picture>
             </div>
           </div>
-          <div class="tabs__content_three">
+          <div class="tabs__content tabs__content_three">
             <div class="tabs__text">
               <div class="tabs__title">
                 <h3>Tabs with soft transitioning effect #3.</h3>
@@ -203,7 +215,10 @@
               </div>
             </div>
             <div class="tabs__image">
-              <img src="./images/tabs-image.png" alt="" class="tabs__image_item">
+              <picture>
+                <source media="(max-width: 1024px)" srcset="./images/tabs-image-size-s.png" class="tabs__image_item">
+                <img src="./images/tabs-image.png" alt="" class="tabs__image_item">
+              </picture>
             </div>
           </div>
         </div>
@@ -221,7 +236,10 @@
             <div class="box-awesome__row">
               <div class="col-awesome">
                 <div class="col-awesome__image">
-                  <img src="./images/awesome-icon-first.png" alt="" class="awesome-img">
+                  <picture>
+                    <source media="(max-width: 768px)" srcset="./images/awesome-icon-first-size-s.png">
+                    <img src="./images/awesome-icon-first.png" alt="" class="awesome-img">
+                  </picture>
                 </div>
                 <div class="col-awesome__title">
                   Thoughtful Design
@@ -233,7 +251,10 @@
               </div>
               <div class="col-awesome">
                 <div class="col-awesome__image">
-                  <img src="./images/awesome-icon-second.png" alt="" class="awesome-img">
+                  <picture>
+                    <source media="(max-width: 768px)" srcset="./images/awesome-icon-second-size-s.png">
+                    <img src="./images/awesome-icon-second.png" alt="" class="awesome-img">
+                  </picture>
                 </div>
                 <div class="col-awesome__title">
                   Thoughtful Design
@@ -245,7 +266,10 @@
               </div>
               <div class="col-awesome">
                 <div class="col-awesome__image">
-                  <img src="./images/awesome-icon-three.png" alt="" class="awesome-img">
+                  <picture>
+                    <source media="(max-width: 768px)" srcset="./images/awesome-icon-three-size-s.png">
+                    <img src="./images/awesome-icon-three.png" alt="" class="awesome-img">
+                  </picture>
                 </div>
                 <div class="col-awesome__title">
                   Thoughtful Design
@@ -253,96 +277,6 @@
                 <div class="col-awesome__text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing
                   elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="main__under">
-          <div class="box-feedback">
-            <div class="promo">
-              <div class="title">
-                what our customers are saying
-              </div>
-              <div class="seporator"></div>
-              <div class="post-title">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </div>
-            </div>
-            <div class="box-feedback__row">
-              <div class="box-feedback__col">
-                <div class="toasts-reviews">
-                  <div class="tringal">
-                    <svg aria-hidden="true" height="30" width="20" class="icon">
-                      <use href="./images/icons.svg#tringal-icon"></use>
-                    </svg>
-                  </div>
-                  <div class="toasts-reviews__content">
-                    <div class="post-title">Lorem ipsum dolor sit amet,
-                      consectetur adipisicing elit. Doloribus
-                      accusamus expedita repellat similique
-                      odio aspernatur ex, architecto eaque
-                      quo suscipit.</div>
-                  </div>
-                  <div class="promo-profile">
-                    <div class="promo-profile__avatar">
-                      <img src="./images/promo-avatar_first.jpg" alt="" class="promo-profile__image">
-                    </div>
-                    <div class="promo-profile__name">
-                      <h4>Davis Rhiel Madsen</h4>
-                      <h5>Manager</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="box-feedback__col">
-                <div class="toasts-reviews">
-                  <div class="tringal">
-                    <svg aria-hidden="true" height="30" width="20" class="icon">
-                      <use href="./images/icons.svg#tringal-icon"></use>
-                    </svg>
-                  </div>
-                  <div class="toasts-reviews__content">
-                    <div class="post-title">Lorem ipsum dolor sit amet,
-                      consectetur adipisicing elit. Doloribus
-                      accusamus expedita repellat similique
-                      odio aspernatur ex, architecto eaque
-                      quo suscipit.</div>
-                  </div>
-                  <div class="promo-profile">
-                    <div class="promo-profile__avatar">
-                      <img src="./images/promo-avatar_second.jpg" alt="" class="promo-profile__image">
-                    </div>
-                    <div class="promo-profile__name">
-                      <h4>Davis Rhiel Madsen</h4>
-                      <h5>Manager</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="box-feedback__col">
-                <div class="toasts-reviews">
-                  <div class="tringal">
-                    <svg aria-hidden="true" height="30" width="20" class="icon">
-                      <use href="./images/icons.svg#tringal-icon"></use>
-                    </svg>
-                  </div>
-                  <div class="toasts-reviews__content">
-                    <div class="post-title">Lorem ipsum dolor sit amet,
-                      consectetur adipisicing elit. Doloribus
-                      accusamus expedita repellat similique
-                      odio aspernatur ex, architecto eaque
-                      quo suscipit.</div>
-                  </div>
-                  <div class="promo-profile">
-                    <div class="promo-profile__avatar">
-                      <img src="./images/promo-avatar_three.jpg.jpg" alt="" class="promo-profile__image">
-                    </div>
-                    <div class="promo-profile__name">
-                      <h4>Davis Rhiel Madsen</h4>
-                      <h5>Manager</h5>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -401,6 +335,101 @@
           </div>
         </div>
       </div>
+      <div class="container__item">
+        <div class="main__under">
+          <div class="box-feedback">
+            <div class="promo">
+              <div class="title">
+                what our customers are saying
+              </div>
+              <div class="seporator"></div>
+              <div class="post-title">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </div>
+            </div>
+            <div class="box-feedback__row">
+              <div class="box-feedback__col">
+                <div class="toasts-reviews">
+                  <div class="toasts-reviews__wrapper">
+                    <div class="toasts-reviews__content">
+                      <div class="post-title">Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Doloribus
+                        accusamus expedita repellat similique
+                        odio aspernatur ex, architecto eaque
+                        quo suscipit.</div>
+                    </div>
+                    <div class="tringal">
+                      <img src="./images/triangle.png" alt="" class="tringal__item">
+                    </div>
+                  </div>
+                  <div class="promo-profile">
+                    <div class="promo-profile__avatar">
+                      <img src="./images/promo-avatar_first.jpg" alt="" class="promo-profile__image">
+                    </div>
+                    <div class="promo-profile__name">
+                      <h4>Davis Rhiel Madsen</h4>
+                      <h5>Manager</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="box-feedback__col box-feedback__col-none">
+                <div class="toasts-reviews">
+                  <div class="toasts-reviews__wrapper">
+                    <div class="toasts-reviews__content">
+                      <div class="post-title">Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Doloribus
+                        accusamus expedita repellat similique
+                        odio aspernatur ex, architecto eaque
+                        quo suscipit.</div>
+                    </div>
+                    <div class="tringal">
+                      <img src="./images/triangle.png" alt="" class="tringal__item">
+                    </div>
+                  </div>
+                  <div class="promo-profile">
+                    <div class="promo-profile__avatar">
+                      <img src="./images/promo-avatar_second.jpg" alt="" class="promo-profile__image">
+                    </div>
+                    <div class="promo-profile__name">
+                      <h4>Davis Rhiel Madsen</h4>
+                      <h5>Manager</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="box-feedback__col box-feedback__col-none">
+                <div class="toasts-reviews">
+                  <div class="toasts-reviews__wrapper">
+                    <div class="toasts-reviews__content">
+                      <div class="post-title">Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Doloribus
+                        accusamus expedita repellat similique
+                        odio aspernatur ex, architecto eaque
+                        quo suscipit.</div>
+                    </div>
+                    <div class="tringal">
+                      <img src="./images/triangle.png" alt="" class="tringal__item">
+                    </div>
+                  </div>
+                  <div class="promo-profile">
+                    <div class="promo-profile__avatar">
+                      <img src="./images/promo-avatar_three.jpg.jpg" alt="" class="promo-profile__image">
+                    </div>
+                    <div class="promo-profile__name">
+                      <h4>Davis Rhiel Madsen</h4>
+                      <h5>Manager</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="dots">
+              <img src="./images/dots.png" alt="" class="dots__item">
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="banner">
         <div class="promo">
           <div class="title title_white">
@@ -433,7 +462,7 @@
                 </div>
               </div>
               <div class="btn">
-                <a href="#" class="btn__item">Send Message</a>
+                <a href="#" class="btn__item btn_item_size_l">Send Message</a>
               </div>
             </form>
           </div>
